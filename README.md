@@ -14,17 +14,16 @@ Welcome to the official repository of the Encoder Motor Driver, an innovative so
 
 Dive into the design and capabilities of our Encoder Motor Driver through these detailed images.
 
-<p align="center">
-  <img src="imageA.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
-  <br>Front view of the Encoder Motor Driver, showcasing the intricate design and connectivity options.
-</p>
-
 
 <p align="center">
   <img src="imageB.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
   <br>Front view of the Encoder Motor Driver, showcasing the intricate design and connectivity options.
 </p>
-## Unparalleled Control
+
+<p align="center">
+  <img src="imageA.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
+  <br>Front view of the Encoder Motor Driver, showcasing the intricate design and connectivity options.
+</p>
 
 At the heart of our motor driver lies a state-of-the-art PID feedback control mechanism, meticulously integrated to ensure precise motor control and stability across a wide range of applications. Whether you're building complex robotic systems or intricate automated processes, our driver provides the control you need to achieve exceptional results.
 
