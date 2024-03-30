@@ -1,4 +1,4 @@
-# Encoder Motor Driver with Built-in PID Controller
+# Encoder Motor Driver with Built-in Feedback Controller
 
 This is the repository of the Smart Encoder Motor Driver, an innovative solution designed to revolutionize the way motors are controlled in robotics, automation, and beyond. Powered by the robust STM32C0 microcontroller and equipped with a precision PID feedback control system, this driver is engineered to deliver unmatched performance and reliability.
 
