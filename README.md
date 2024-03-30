@@ -16,7 +16,7 @@ Dive into the design and capabilities of our Encoder Motor Driver through tahese
 
 
 <p align="center">
-  <img src="imageB.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
+  <img src="imageC.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>
 
 <p align="center">
