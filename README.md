@@ -12,7 +12,7 @@ This is the repository of the Smart Encoder Motor Driver. Powered by the robust 
 ## Board Overview
 
 <p align="center">
-  <img src="imageC.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
+  <img src="render.png" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>
 
 <p align="center">
