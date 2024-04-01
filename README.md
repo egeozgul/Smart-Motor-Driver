@@ -2,6 +2,8 @@
 
 This is the repository of the Smart Encoder Motor Driver. Powered by the robust STM32C0 microcontroller and equipped with a precision PID feedback control system, this driver is engineered to deliver optimized performance and reliability.
 
+Note that this github page is for presentation only, so the pcb design and sourcecode are currently not public.
+
 ## Key Features
 - **Voltage Compatibility:** Engineered to support up to 45 volts, accommodating a wide range of motor types.
 - **Ample Current Supply:** Capable of delivering up to 3 amps to ensure your motors operate at peak efficiency.
