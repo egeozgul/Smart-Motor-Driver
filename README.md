@@ -1,15 +1,17 @@
-# Encoder Motor Driver with Built-in Feedback Controller
+# DC Motor Driver with Built-in Feedback Controller
 
 This is the repository of the Smart Encoder Motor Driver. Powered by the robust STM32C0 microcontroller and equipped with a precision PID feedback control system, this driver is engineered to deliver optimized performance and reliability.
 
 Note that this github page is for presentation only, so the pcb design and sourcecode are currently not public.
 
 ## Key Features
-- **Voltage Compatibility:** Engineered to support up to 45 volts, accommodating a wide range of motor types.
-- **Ample Current Supply:** Capable of delivering up to 3 amps to ensure your motors operate at peak efficiency.
-- **Dual Motor Management:** Drive two motors simultaneously with unparalleled precision.
-- **Versatile Communication:** Features support for both I2C and UART protocols, offering flexibility in connectivity options.
-- **Expandable Design:** Equipped with Qwiic connectors, our driver allows for daisy chaining up to 256 units, enabling control of up to 512 motors in unison.
+- **Builtin Feedback Controller:** High frequency builtin pid controller.
+- **Digital Communication:** Custom ascii and binary communication modes which allows updating motor target position, updating and saving pid coefficients, receiving torque feedback, and further configuring the board.
+- **Voltage Compatibility:** Supports 5V to 45V.
+- **Ample Current Supply:** Capable of delivering up to 3 amps.
+- **Dual Motor Management:** Drive two motors  simultaneously.
+- **Versatile Communication:** Features support for I2C, UART, SPI protocols.
+- **Expandable Design:** Equipped with Qwiic connectors, our driver allows for daisy chaining up to 256 units, enabling control of up to 512 motors using single i2c port.
 
 ## Board Overview
 
