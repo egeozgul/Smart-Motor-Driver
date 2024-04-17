@@ -8,7 +8,7 @@ Note that this github page is for presentation only, so the pcb design and sourc
 - **Builtin Feedback Controller:** High frequency builtin pid controller.
 - **Digital Communication:** Custom ascii and binary communication modes which allows updating motor target position, updating and saving pid coefficients, receiving torque feedback, and further configuring the board.
 - **Voltage Compatibility:** Supports 5V to 45V.
-- **Ample Current Supply:** Capable of delivering up to 3 amps.
+- **Ample Current Supply:** Capable of delivering up to 4.1 amps.
 - **Dual Motor Management:** Drive two motors  simultaneously.
 - **Versatile Communication:** Features support for I2C, UART, SPI protocols.
 - **Expandable Design:** Equipped with Qwiic connectors, our driver allows for daisy chaining up to 256 units, enabling control of up to 512 motors using single i2c port.
