@@ -25,12 +25,8 @@ Note that this github page is for presentation only, so the pcb design and sourc
   <img src="imageA.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>
 
-At the heart of our motor driver lies a PID feedback control mechanism, meticulously integrated to ensure precise motor control and stability across a wide range of applications. Whether you're building complex robotic systems or intricate automated processes, our driver provides the control you need to achieve exceptional results.
+At the heart of our motor driver lies a PID feedback control mechanism, meticulously integrated to ensure precise motor control and stability across a wide range of applications. Whether you're building complex robotic systems or intricate automated processes, our driver provides the control you need to achieve exceptional results
 
 ## Connectivity and Expansion
 
 Designed with scalability in mind, our motor driver leverages Qwiic connectors for seamless daisy chaining. This innovative feature allows for the control of an expansive array of motors, making it an ideal choice for projects that require extensive coordination and control capabilities.
-
-## Dive Into the Future
-
-Embrace the future of motor control with our Encoder Motor Driver. Engineered for enthusiasts and professionals alike, this driver is your gateway to achieving unparalleled precision and scalability in your projects.
