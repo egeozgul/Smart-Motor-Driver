@@ -22,6 +22,10 @@ Note that this github page is for presentation only, so the pcb design and sourc
 </p>
 
 <p align="center">
+  <img src="imageC.png" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
+</p>
+
+<p align="center">
   <img src="imageA.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>
 
