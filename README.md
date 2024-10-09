@@ -2,35 +2,38 @@
 
 <p align="center">
   <img src="render.png" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
-</p>
+</p>This is the Smart Encoder Motor Driver, built to control DC motors with magnetic or optical encoders. It includes a built-in feedback controller and H-bridge to adjust motor power based on commands from a master device.
 
-This is the repository of the Smart Encoder Motor Driver. This driver is built to drive DC motors with magnetic or optical encoders using a builtin feedback controller and an hbridge. This device receives digital comamnds from an additional master device and powers the motors accordingly.
+Powered by the STM32C0 microcontroller and featuring a precise PID feedback system, this driver is made for reliable and efficient motor control.
 
-Powered by the robust STM32C0 microcontroller and equipped with a precision PID feedback control system, this driver is engineered to deliver optimized performance and reliability.
+Please note, this page is for presentation only. The PCB design and source code are not available at this time.
 
-Note that this github page is for presentation only, so the pcb design and sourcecode are currently not public.
+# Key Features
 
-## Key Features
-- **Builtin Feedback Controller:** High frequency builtin pid controller.
-- **Digital Communication:** Custom ascii and binary communication modes which allows updating motor target position, updating and saving pid coefficients, receiving torque feedback, and further configuring the board.
-- **Voltage Rate:** Supports 5V to 45V.
-- **Current Rates:** Capable of delivering up to 4.1 amps.
-- **Dual Motor Management:** Drive two motors  simultaneously.
-- **Communication:** I2C and UART protocols.
-- **Expandable Design:** Equipped with Qwiic connectors, the driver allows for daisy chaining up to 256 units, enabling control of up to 512 motors using single i2c port.
+Built-in Feedback Controller: High-frequency PID control for precise motor operation.
+
+Digital Communication: Supports ASCII and binary modes for setting motor target position, adjusting PID coefficients, receiving torque feedback, and other configurations.
+
+### Voltage Range: Supports 5V to 45V.
+
+### Current Capacity: Up to 4.1 amps.
+
+### Dual Motor Support: Can control two motors simultaneously.
+
+### Communication: Supports I2C and UART protocols.
+
+### Expandable Design: Qwiic connectors allow daisy-chaining of up to 256 units, supporting up to 512 motors on a single I2C port.
+
 
 ## Board Overview
 
 <p align="center">
   <img src="imageC.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
-</p>
-
-<p align="center">
+</p><p align="center">
   <img src="imageA.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
-</p>
-
-At the heart of our motor driver lies a PID feedback control mechanism, meticulously integrated to ensure precise motor control and stability across a wide range of applications. Whether you're building complex robotic systems or intricate automated processes, our driver provides the control you need to achieve exceptional results
+</p>The PID feedback control system ensures precise and stable motor control for a wide range of uses. Whether you're working on robotics or automation, this driver offers the precision you need for excellent results.
 
 ## Connectivity and Expansion
 
-Designed with scalability in mind, our motor driver leverages Qwiic connectors for seamless daisy chaining. This innovative feature allows for the control of an expansive array of motors, making it an ideal choice for projects that require extensive coordination and control capabilities.
+The motor driver is designed for scalability, using Qwiic connectors for easy daisy-chaining. This allows you to control a large number of motors, making it ideal for projects that require extensive motor coordination.
+
