@@ -14,15 +14,15 @@ Built-in Feedback Controller: High-frequency PID control for precise motor opera
 
 Digital Communication: Supports ASCII and binary modes for setting motor target position, adjusting PID coefficients, receiving torque feedback, and other configurations.
 
-### Voltage Range: Supports 5V to 45V.
+Voltage Range: Supports 5V to 45V.
 
-### Current Capacity: Up to 4.1 amps.
+Current Capacity: Up to 4.1 amps.
 
-### Dual Motor Support: Can control two motors simultaneously.
+Dual Motor Support: Can control two motors simultaneously.
 
-### Communication: Supports I2C and UART protocols.
+Communication: Supports I2C and UART protocols.
 
-### Expandable Design: Qwiic connectors allow daisy-chaining of up to 256 units, supporting up to 512 motors on a single I2C port.
+Expandable Design: Qwiic connectors allow daisy-chaining of up to 256 units, supporting up to 512 motors on a single I2C port.
 
 
 ## Board Overview
