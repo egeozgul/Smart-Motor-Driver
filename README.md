@@ -24,6 +24,10 @@ Communication: Supports I2C and UART protocols.
 
 Expandable Design: Qwiic connectors allow daisy-chaining of up to 256 units, supporting up to 512 motors on a single I2C port.
 
+https://egeozgul.github.io/live-uart/
+
+![scr](https://github.com/user-attachments/assets/ec2e79d4-fb35-4699-954e-250158fb1edc)
+
 
 ## Board Overview
 
