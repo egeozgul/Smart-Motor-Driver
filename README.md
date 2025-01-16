@@ -24,10 +24,18 @@ Communication: Supports I2C and UART protocols.
 
 Expandable Design: Qwiic connectors allow daisy-chaining of up to 256 units, supporting up to 512 motors on a single I2C port.
 
-https://egeozgul.github.io/live-uart/
+# Motion Plots
+
+
 
 ![scr](https://github.com/user-attachments/assets/ec2e79d4-fb35-4699-954e-250158fb1edc)
 
+First plot displays the position value.
+Second plot displays the velocy value.
+Third plot displays the current drawn by the motor.
+
+Check out my custom web based uart plotter below. It can plot (almost)infinitely many live plots on browser using usb and uart interfaces.
+https://egeozgul.github.io/live-uart/
 
 ## Board Overview
 
