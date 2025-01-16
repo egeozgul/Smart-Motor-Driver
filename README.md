@@ -26,15 +26,11 @@ Expandable Design: Qwiic connectors allow daisy-chaining of up to 256 units, sup
 
 # Motion Plots
 
-
+A custom web based uart plotter is used for live plotting motion parameters of the motor. The first plot displays the position, second plot displays the velocity, and the third plot displays the current drawn by the motor.
 
 ![scr](https://github.com/user-attachments/assets/ec2e79d4-fb35-4699-954e-250158fb1edc)
 
-First plot displays the position value.
-Second plot displays the velocy value.
-Third plot displays the current drawn by the motor.
-
-Check out my custom web based uart plotter below. It can plot (almost)infinitely many live plots on browser using usb and uart interfaces.
+Check out the link below to access to my custom web based uart plotter below. It can plot (almost)infinitely many live plots on browser using usb and uart interfaces.
 https://egeozgul.github.io/live-uart/
 
 ## Board Overview
