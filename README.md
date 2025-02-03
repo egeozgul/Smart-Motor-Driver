@@ -1,7 +1,7 @@
 # DC Motor Driver with Built-in Feedback Controller
 
 <p align="center">
-  <img src="render.png" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
+  <img src="driver__.png" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>This is the Smart Encoder Motor Driver, built to control DC motors with magnetic or optical encoders. It includes a built-in feedback controller and H-bridge to adjust motor power based on commands from a master device.
 
 Powered by the STM32C0 microcontroller and featuring a precise PID feedback system, this driver is made for reliable and efficient motor control.
