@@ -1,4 +1,4 @@
-# DC Motor Driver with Built-in Feedback Controller
+# Smart DC Motor Driver (with Built-in Feedback Controller)
 
 <p align="center">
   <img src="driver__.png" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
