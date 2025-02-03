@@ -6,8 +6,6 @@
 
 Powered by the STM32C0 microcontroller and featuring a precise PID feedback system, this driver is made for reliable and efficient motor control.
 
-Please note, this page is for presentation only. The PCB design and source code are not available at this time.
-
 # Key Features
 
 Built-in Feedback Controller: High-frequency PID control for precise motor operation.
