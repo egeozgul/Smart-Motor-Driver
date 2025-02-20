@@ -27,7 +27,7 @@ A custom live plotter is built for monitoring the motor speed, acceleration, and
 Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to plot variables sent over uart for your project.
 It plot infinetly many variables with customized styling for each plot.
 
-## Board Overview
+## Board Overview (First Iteration)
 <p align="center">
   <img src="imageC.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>
