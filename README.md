@@ -22,7 +22,10 @@ A custom web-based UART plotter is used for live plotting of motor motion parame
 
 ![scr](https://github.com/user-attachments/assets/ec2e79d4-fb35-4699-954e-250158fb1edc)
 
-Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to visualize live data from the motor driver.
+## Custom Live Plotter
+A custom live plotter is built for monitoring the motor speed, acceleration, and current draw.
+Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to plot variables sent over uart for your project.
+It plot infinetly many variables with customized styling for each plot.
 
 ## Board Overview
 <p align="center">
