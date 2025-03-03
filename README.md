@@ -53,31 +53,5 @@ The **PID feedback control system** ensures precise and stable motor control, ma
 ## Connectivity and Expansion
 The motor driver is designed for scalability, using **Qwiic connectors** for easy daisy-chaining. This allows control of a large number of motors, making it ideal for projects requiring extensive motor coordination.
 
-## Getting Started
-### Hardware Requirements
-- Smart Encoder Motor Driver
-- DC Motor with Encoder
-- Power Supply (5V-45V)
-- I2C or UART communication interface
-
-### Software Setup
-1. Connect the motor driver to your microcontroller or PC via I2C/UART.
-2. Install the required dependencies for serial communication.
-3. Use the provided commands to set target positions, adjust PID coefficients, and monitor feedback.
-
-### Example UART Command
-```sh
-# Set motor position to 1000 steps
-M1000
-```
-
-### Example I2C Command (Python)
-```python
-import smbus
-bus = smbus.SMBus(1) # For Raspberry Pi
-address = 0x10  # Example I2C address
-bus.write_i2c_block_data(address, 0x00, [0x03, 0xE8]) # Send position command (1000 steps)
-```
-
 ## License
 This project is open-source under the MIT License. Feel free to modify and distribute it as needed!
