@@ -23,15 +23,12 @@ The driver includes an **embedded trapezoidal trajectory generator**, which ensu
 - Prevents overshooting and oscillations.
 - Customizable speed, acceleration, and deceleration limits.
 
-### Example Motion Profile
-<p align="center">
-  <img src="trapezoidal_motion.png" alt="Trapezoidal Motion Profile" width="60%" height="auto"/>
-</p>
+### Motion Profile
 
 The controller automatically computes the trajectory based on the target position, velocity, and acceleration constraints.
+A custom web-based UART plotter is used for live plotting of motor motion parameters. 
 
-## Motion Plots
-A custom web-based UART plotter is used for live plotting of motor motion parameters. The plots display:
+The plots below display:
 1. Position
 2. Velocity
 3. Current drawn by the motor
