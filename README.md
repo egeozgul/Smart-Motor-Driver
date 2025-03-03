@@ -8,11 +8,27 @@ The **Smart Encoder Motor Driver** is designed to control DC motors with magneti
 
 ## Key Features
 - **Built-in Feedback Controller**: High-frequency PID control for precise motor operation.
-- **Digital Communication**: Supports ASCII modes for setting motor target position, adjusting PID coefficients, receiving torque feedback, and more.
+- **Trapezoidal Trajectory Planner**: Ensures smooth acceleration and deceleration by generating motion profiles for precise movement control.
+- **Digital Communication**: Supports ASCII commands for setting motor target positions, tuning PID coefficients, monitoring torque feedback, and more.
 - **Voltage Range**: 5V to 45V.
 - **Current Capacity**: Up to 4.1 amps.
 - **Communication**: Supports I2C and UART protocols.
 - **Expandable Design**: Qwiic connectors allow daisy-chaining of up to 256 units on a single I2C port.
+
+## Trapezoidal Trajectory Planner
+The driver includes an **embedded trapezoidal trajectory generator**, which ensures smooth motor motion by controlling acceleration and deceleration. This feature prevents sudden jerks, reduces mechanical stress, and improves overall system stability.
+
+### Key Benefits
+- Smooth position transitions with controlled acceleration and deceleration.
+- Prevents overshooting and oscillations.
+- Customizable speed, acceleration, and deceleration limits.
+
+### Example Motion Profile
+<p align="center">
+  <img src="trapezoidal_motion.png" alt="Trapezoidal Motion Profile" width="60%" height="auto"/>
+</p>
+
+The controller automatically computes the trajectory based on the target position, velocity, and acceleration constraints.
 
 ## Motion Plots
 A custom web-based UART plotter is used for live plotting of motor motion parameters. The plots display:
@@ -23,9 +39,9 @@ A custom web-based UART plotter is used for live plotting of motor motion parame
 ![scr](https://github.com/user-attachments/assets/ec2e79d4-fb35-4699-954e-250158fb1edc)
 
 ## Custom Live Plotter
-A custom live plotter is built for monitoring the motor speed, acceleration, and current draw.
-Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to plot variables sent over uart for your project.
-It plot infinetly many variables with customized styling for each plot.
+A custom live plotter is built for monitoring the motor speed, acceleration, and current draw.  
+Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to visualize real-time data from your motor driver.  
+It supports plotting an unlimited number of variables with customizable styling.
 
 ## Board Overview (First Iteration)
 <p align="center">
@@ -39,3 +55,32 @@ The **PID feedback control system** ensures precise and stable motor control, ma
 
 ## Connectivity and Expansion
 The motor driver is designed for scalability, using **Qwiic connectors** for easy daisy-chaining. This allows control of a large number of motors, making it ideal for projects requiring extensive motor coordination.
+
+## Getting Started
+### Hardware Requirements
+- Smart Encoder Motor Driver
+- DC Motor with Encoder
+- Power Supply (5V-45V)
+- I2C or UART communication interface
+
+### Software Setup
+1. Connect the motor driver to your microcontroller or PC via I2C/UART.
+2. Install the required dependencies for serial communication.
+3. Use the provided commands to set target positions, adjust PID coefficients, and monitor feedback.
+
+### Example UART Command
+```sh
+# Set motor position to 1000 steps
+M1000
+```
+
+### Example I2C Command (Python)
+```python
+import smbus
+bus = smbus.SMBus(1) # For Raspberry Pi
+address = 0x10  # Example I2C address
+bus.write_i2c_block_data(address, 0x00, [0x03, 0xE8]) # Send position command (1000 steps)
+```
+
+## License
+This project is open-source under the MIT License. Feel free to modify and distribute it as needed!
