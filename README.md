@@ -41,9 +41,7 @@ Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to visu
 It supports plotting an unlimited number of variables with customizable styling.
 
 ## Final PCB Design Iteration
-<p align="center">
 ![IMG-20250525-WA0009](https://github.com/user-attachments/assets/449203f8-8fd5-4fc8-97ef-0804dd21e011)
-</p>
 
 ![IMG-20250525-WA0010](https://github.com/user-attachments/assets/5bac32cf-38b6-4dda-9f8f-5560bae4baff)
 
