@@ -28,7 +28,7 @@ The driver includes an **embedded trapezoidal trajectory generator**, which ensu
 The controller automatically computes the trajectory based on the target position, velocity, and acceleration constraints.
 A custom web-based UART plotter is used for live plotting of motor motion parameters. 
 
-The plots below display:
+The plots below display: 
 1. Position
 2. Velocity
 3. Current drawn by the motor
@@ -39,6 +39,12 @@ The plots below display:
 A custom live plotter is built for monitoring the motor speed, acceleration, and current draw.  
 Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to visualize real-time data from your motor driver.  
 It supports plotting an unlimited number of variables with customizable styling.
+
+![IMG-20250525-WA0010](https://github.com/user-attachments/assets/5bac32cf-38b6-4dda-9f8f-5560bae4baff)
+
+![IMG-20250525-WA0009](https://github.com/user-attachments/assets/449203f8-8fd5-4fc8-97ef-0804dd21e011)
+
+
 
 ## Board Overview (First Iteration)
 <p align="center">
