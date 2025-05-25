@@ -40,13 +40,14 @@ A custom live plotter is built for monitoring the motor speed, acceleration, and
 Check out the [Live UART Plotter](https://egeozgul.github.io/live-uart/) to visualize real-time data from your motor driver.  
 It supports plotting an unlimited number of variables with customizable styling.
 
+## Final PCB Design Iteration
+<p align="center">
+![IMG-20250525-WA0009](https://github.com/user-attachments/assets/449203f8-8fd5-4fc8-97ef-0804dd21e011)
+</p>
+
 ![IMG-20250525-WA0010](https://github.com/user-attachments/assets/5bac32cf-38b6-4dda-9f8f-5560bae4baff)
 
-![IMG-20250525-WA0009](https://github.com/user-attachments/assets/449203f8-8fd5-4fc8-97ef-0804dd21e011)
-
-
-
-## Board Overview (First Iteration)
+## First PCB Design Iteration
 <p align="center">
   <img src="imageC.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
 </p>
