@@ -51,14 +51,6 @@ It supports plotting an unlimited number of variables with customizable styling.
 
 ![IMG-20250525-WA0010](https://github.com/user-attachments/assets/5bac32cf-38b6-4dda-9f8f-5560bae4baff)
 
-## First PCB Design Iteration
-<p align="center">
-  <img src="imageC.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
-</p>
-<p align="center">
-  <img src="imageA.jpg" alt="Encoder Motor Driver - Front View" width="50%" height="auto"/>
-</p>
-
 The **PID feedback control system** ensures precise and stable motor control, making it suitable for robotics, automation, and other applications requiring high precision.
 
 ## Connectivity and Expansion
