@@ -64,7 +64,7 @@
         }
 
         h1 {
-            font-size: clamp(2.5rem, 5vw, 3.5rem); /* Responsive font size */
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
             line-height: 1.1;
             text-align: center;
             letter-spacing: -1.5px;
@@ -119,7 +119,7 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-            background-color: rgba(17, 24, 39, 0.7); /* bg-dark with transparency */
+            background-color: rgba(17, 24, 39, 0.7);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-color);
             transition: background-color 0.3s ease;
@@ -248,7 +248,10 @@
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center;
-            margin-top: 3rem;
+            padding-top: 3rem; /* Replaces margin-top for consistent spacing */
+        }
+        .tech-section:first-of-type {
+            padding-top: 0;
         }
         .tech-section.reverse {
             grid-template-columns: 1fr 1fr;
@@ -386,6 +389,7 @@
 
         <section id="technology" class="container fade-in-section">
             <h2>Engineered for Performance</h2>
+
             <div class="tech-section">
                 <div class="text-content">
                     <h3>Fluid Motion with Trajectory Planning</h3>
@@ -399,13 +403,23 @@
                 </div>
             </div>
 
-            <div class="tech-section reverse" style="margin-top: 4rem;">
+            <div class="tech-section reverse">
                  <div class="image-content">
-                    <img src="https://github.com/user-attachments/assets/449203f8-8fd5-4fc8-97ef-0804dd21e011" alt="The Axion Drive PCB">
+                    <img src="https://github.com/user-attachments/assets/449203f8-8fd5-4fc8-97ef-0804dd21e011" alt="The Axion Drive PCB - Top View">
                 </div>
                 <div class="text-content">
                     <h3>Professional & Meticulous Design</h3>
                     <p>Built on a professionally routed PCB, the Axion Drive is optimized for thermal performance and signal integrity. The clean layout and high-quality components reflect a commitment to reliability and engineering excellence.</p>
+                </div>
+            </div>
+
+            <div class="tech-section">
+                <div class="text-content">
+                    <h3>Connect and Expand with Ease</h3>
+                    <p>The Axion Drive features two Qwiic-compatible connectors, making it simple to create powerful, multi-axis systems. Daisy-chain up to 256 drives on a single I2C bus with minimal wiring, allowing you to build complex robots and machines without the typical cable mess.</p>
+                </div>
+                <div class="image-content">
+                    <img src="https://github.com/user-attachments/assets/fbc92872-6157-4653-9876-7cdbfeab308c" alt="Bottom view of the Axion Drive, highlighting the Qwiic connectors for daisy-chaining">
                 </div>
             </div>
         </section>
