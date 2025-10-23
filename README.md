@@ -7,7 +7,7 @@
 
 <!-- https://github.com/user-attachments/assets/069eb083-97e3-404b-9e9d-383a1cb0ce94 -->
 
-## Watch the assembly video
+## Watch the PCB assembly video
 [![Watch the assembly video](https://img.youtube.com/vi/LhhGqf6qH90/maxresdefault.jpg)](https://youtu.be/LhhGqf6qH90)
 
 
