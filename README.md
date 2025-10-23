@@ -15,6 +15,8 @@ https://github.com/user-attachments/assets/069eb083-97e3-404b-9e9d-383a1cb0ce94
 
 [![Assembly Video](path/to/thumbnail.jpg)](https://raw.githubusercontent.com/egeozgul/Smart-Motor-Driver/main/assembly_.mp4)
 
+[![Watch the assembly video](https://img.youtube.com/vi/LhhGqf6qH90/maxresdefault.jpg)](https://youtu.be/LhhGqf6qH90)
+
 
 The **Smart Encoder Motor Driver** is designed to control DC motors with magnetic or optical encoders. It features a built-in feedback controller and H-bridge, allowing precise motor power adjustment based on commands from a master device. Powered by the **STM32C0 microcontroller** and equipped with a **PID feedback system**, this driver ensures reliable and efficient motor control.
 
