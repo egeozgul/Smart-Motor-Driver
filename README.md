@@ -8,7 +8,7 @@
 https://github.com/user-attachments/assets/069eb083-97e3-404b-9e9d-383a1cb0ce94
 
 <p align="center">
-  <img src="assembly.mp4" alt="PCB Assembly" width="70%" height="auto"/>
+  <img src="assembly_.mp4" alt="PCB Assembly" width="70%" height="auto"/>
 </p>
 
 
