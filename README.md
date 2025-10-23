@@ -7,14 +7,6 @@
 
 https://github.com/user-attachments/assets/069eb083-97e3-404b-9e9d-383a1cb0ce94
 
-<video src="https://raw.githubusercontent.com/egeozgul/Smart-Motor-Driver/main/assembly_.mp4" controls width="480">
-  Your browser does not support the video tag.
-</video>
-
-[View assembly video](https://raw.githubusercontent.com/egeozgul/Smart-Motor-Driver/main/assembly_.mp4)
-
-[![Assembly Video](path/to/thumbnail.jpg)](https://raw.githubusercontent.com/egeozgul/Smart-Motor-Driver/main/assembly_.mp4)
-
 [![Watch the assembly video](https://img.youtube.com/vi/LhhGqf6qH90/maxresdefault.jpg)](https://youtu.be/LhhGqf6qH90)
 
 
