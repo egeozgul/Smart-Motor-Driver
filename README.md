@@ -1,4 +1,4 @@
-# Smart DC Motor Driver (with Built-in Feedback Controller)
+# Servo Motor Feedback Controller
 
 <p align="center">
   <img src="pcb.png" alt="Encoder Motor Driver - Front View" width="70%" height="auto"/>
